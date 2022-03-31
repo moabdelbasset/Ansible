@@ -1,0 +1,5 @@
+---
+- hosts: prod
+  tasks:
+    - name: Ping
+      ping:
