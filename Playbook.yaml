@@ -3,3 +3,8 @@
   tasks:
     - name: Ping
       ping:
+    - name: add a file
+      lineinfile:
+        path: /tmp/testfile
+        line: Checking webhooks
+        create: yes
